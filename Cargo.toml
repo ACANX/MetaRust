@@ -1,0 +1,26 @@
+[package]
+name = "metarust"
+version = "0.1.0"
+description = "A Rust utility library providing common helpers and tools"
+edition = "2021"
+license = "Apache-2.0"
+repository = "https://github.com/ACANX/MetaRust"
+homepage = "https://github.com/ACANX/MetaRust"
+keywords = ["utilities", "helpers", "toolkit"]
+
+[dependencies]
+
+[dev-dependencies]
+
+[lib]
+name = "metarust"
+path = "src/lib.rs"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+
+[[example]]
+name = "basic"
+path = "examples/basic.rs"
