@@ -1,15 +1,15 @@
-/// MetaRust — A Rust utility library providing common helpers and tools.
+/// MetaRust — 一个提供常用辅助工具和函数的 Rust 工具库。
 ///
-/// # Examples
+/// # 示例
 ///
 /// ```
 /// use metarust::greet;
 ///
-/// let message = greet("World");
-/// assert_eq!(message, "Hello, World!");
+/// let message = greet("世界");
+/// assert_eq!(message, "Hello, 世界!");
 /// ```
 
-/// Returns a greeting message for the given name.
+/// 返回给定名称的问候消息。
 pub fn greet(name: &str) -> String {
     format!("Hello, {}!", name)
 }

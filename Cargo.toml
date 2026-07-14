@@ -1,12 +1,12 @@
 [package]
 name = "metarust"
 version = "0.1.0"
-description = "A Rust utility library providing common helpers and tools"
+description = "一个提供常用辅助工具和函数的 Rust 工具库"
 edition = "2021"
 license = "Apache-2.0"
 repository = "https://github.com/ACANX/MetaRust"
 homepage = "https://github.com/ACANX/MetaRust"
-keywords = ["utilities", "helpers", "toolkit"]
+keywords = ["工具库", "工具集", "实用工具"]
 
 [dependencies]
 

@@ -1,16 +1,16 @@
 # MetaRust
 
-A Rust utility library providing common helpers and tools.
+一个提供常用辅助工具和函数的 Rust 工具库。
 
-## Features
+## 特性
 
-- **Rust 2021 edition** — modern Rust with strict type safety
-- **Zero dependencies** — lightweight and fast
-- **Well-tested** — comprehensive test coverage
+- **Rust 2021 版本** — 现代 Rust 编程，严格的类型安全
+- **零依赖** — 轻量、快速
+- **充分测试** — 全面的测试覆盖
 
-## Usage
+## 使用方式
 
-Add to your `Cargo.toml`:
+添加到你的 `Cargo.toml`：
 
 ```toml
 [dependencies]
@@ -20,26 +20,26 @@ metarust = { git = "https://github.com/ACANX/MetaRust" }
 ```rust
 use metarust::greet;
 
-let message = greet("World");
+let message = greet("世界");
 println!("{}", message);
 ```
 
-## Development
+## 开发指南
 
 ```bash
-# Build
+# 构建
 cargo build
 
-# Run tests
+# 运行测试
 cargo test
 
-# Run examples
+# 运行示例
 cargo run --example basic
 
-# Build release
+# 发布构建
 cargo build --release
 ```
 
-## License
+## 许可证
 
 Apache License 2.0
